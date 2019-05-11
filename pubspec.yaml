@@ -2,7 +2,7 @@ name: safe
 description: Safe get&#x2F;set Object
 version: 0.0.1
 author: pillar
-homepage:
+homepage: https://github.com/ymzuiku/dart-safe
 
 environment:
   sdk: ">=2.2.0 <3.0.0"

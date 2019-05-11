@@ -1,6 +1,6 @@
 name: safe
-description: Safe get&#x2F;set Object
-version: 0.0.2
+description: Use try catch safe get Object values
+version: 0.1.0
 author: pillar<pillar@gmail.com>
 homepage: https://github.com/ymzuiku/dart-safe
 

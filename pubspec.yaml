@@ -1,9 +1,23 @@
 name: safe
 description: Safe get&#x2F;set Object
-version: 0.0.1
-author: pillar
+version: 0.0.2
+author: pillar<pillar@gmail.com>
 homepage: https://github.com/ymzuiku/dart-safe
 
 environment:
   sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+
+dev_dependencies:
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+# The following section is specific to Flutter.
+web:
+
 

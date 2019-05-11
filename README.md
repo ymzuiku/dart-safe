@@ -32,7 +32,7 @@ void main() {
     },
   };
 
-  print(safe.ren(() => v['dog'][0]));
+  print(safe.run(() => v['dog'][0]));
   print(safe.get(v, ['dog', 3, 'sub', 12323, 'error-key']));
   print(safe.set(v, ['dog', 3, 'sub'], '100'));
 }

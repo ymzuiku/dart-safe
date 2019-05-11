@@ -1,6 +1,6 @@
 name: safe
 description: safe get/set in <T extends List, Map> Object, like safe.got(data, ['key1', 'key2'])
-version: 0.1.4
+version: 0.1.5
 author: pillar<pillar@gmail.com>
 homepage: https://github.com/ymzuiku/dart-safe
 
@@ -16,8 +16,5 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
-# The following section is specific to Flutter.
-web:
 
 

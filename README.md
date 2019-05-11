@@ -2,6 +2,10 @@
 
 安全的 set/get 对象操作
 
+## API
+
+[API Documentation](https://pub.dev/documentation/safe/latest/safe/safe-library.html)
+
 ## Getting Started
 
 This project is a starting point for a Dart
@@ -12,6 +16,7 @@ multiple Flutter or Dart projects.
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
+
 
 
 ```dart

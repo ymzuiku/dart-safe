@@ -1,8 +1,8 @@
 library safe;
 
-// Use try catch run fn and return value.
-//
-// This is ok: var a = safeRun(()=> v['dog', 2]).
+/// Use try catch run fn and return value.
+///
+/// This is ok: var a = safeRun(()=> v['dog', 2]).
 dynamic run(Function fn, [Function errFn]) {
   try {
     return fn();
@@ -14,9 +14,9 @@ dynamic run(Function fn, [Function errFn]) {
   }
 }
 
-// Safe set List or Map value.
-//
-// This is ok: safeSet(v, ['dog', 10, 'cat', 30], 'newValue').
+/// Safe set List or Map value.
+///
+/// This is ok: safeSet(v, ['dog', 10, 'cat', 30], 'newValue').
 dynamic set(dynamic data, List params, dynamic value) {
   dynamic last = data;
   int l = params.length - 1;
@@ -47,8 +47,9 @@ dynamic set(dynamic data, List params, dynamic value) {
   return data;
 }
 
-// safe get List and Map.
-// This is ok: safeGet(v, ['dog', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, '...']).
+/// safe get List and Map.
+///
+/// This is ok: safeGet(v, ['dog', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, '...']).
 dynamic get(dynamic data, List params) {
   dynamic last = data;
   for (var i = 0, l = params.length; i < l; i++) {

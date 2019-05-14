@@ -8,16 +8,7 @@
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
-
-
+这是一个基础的用例:
 
 ```dart
 import 'package:safe/safe.dart' as safe;
@@ -45,7 +36,7 @@ void main() {
 
 ## 性能测试
 
-- safe.run: 在未捕获错误时, 性能基本无损耗, 捕获错误时, 性能下降50倍
+- safe.run: 在未捕获错误时, 性能基本无损耗, 捕获错误时, 性能下降 50 倍
 - safe.get/set: 相当于手动判断父级对象是否存在, 性能损耗属于正常逻辑损耗
 
 ```dart
@@ -84,4 +75,3 @@ void main() {
   }
   TimeLog.long(p5);
 ```
-
